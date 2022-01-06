@@ -1,0 +1,18 @@
+.todoAdder{
+    background-color: rgb(74, 172, 211);
+    border: 0.55rem solid rgb(240, 128, 36);;
+    padding: 1rem;
+    height: 180px;
+    width: 360px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: auto;
+}
