@@ -14,9 +14,10 @@
     position: relative;
     transform: rotate(-2deg);
     width: 25%;
-    height: auto;
+    height: 250px;
     border-radius: 1rem;
-    border: 2px solid red;
+    background-color: rgb(240, 128, 36);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .edit-button,
@@ -40,9 +41,10 @@
 }
 
 .todo-card{
-    transform: rotate(2deg);
+    transform: rotate(2deg) translateY(-0.3rem);
     border-radius: 1rem;
-    border: 2px solid blue;
+    height: 90%;
+    background-color: rgb(74, 172, 211);
 }
 
 .todoAdder{
